@@ -38,8 +38,9 @@
   <project path="development" name="platform/development" />
   <project path="device/common" name="device/common" />
   <project path="device/sample" name="device/sample" />
+  <project path="external/apache-http" name="platform/external/apache-http" />
   <project path="external/apriori" name="platform_external_apriori" remote="b2g" revision="master" />
-  <project path="external/bluetooth/bluez" name="platform/external/bluetooth/bluez" />
+  <project path="external/bison" name="platform/external/bison" />
   <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib" />
   <project path="external/bluetooth/hcidump" name="platform/external/bluetooth/hcidump" />
   <project path="external/bsdiff" name="platform/external/bsdiff" />
@@ -64,9 +65,11 @@
   <project path="external/libnfc-nxp" name="platform/external/libnfc-nxp" />
   <project path="external/libnl-headers" name="platform/external/libnl-headers" />
   <project path="external/libpng" name="platform/external/libpng" />
+  <project path="external/libphonenumber" name="platform/external/libphonenumber" />
   <project path="external/libvpx" name="platform/external/libvpx" />
   <project path="external/llvm" name="platform/external/llvm" />
   <project path="external/mksh" name="platform/external/mksh" />
+  <project path="external/nist-sip" name="platform/external/nist-sip" />
   <project path="external/opensans" name="platform_external_opensans" remote="b2g" revision="master" />
   <project path="external/openssl" name="platform/external/openssl" />
   <project path="external/protobuf" name="platform/external/protobuf" />
@@ -84,7 +87,7 @@
   <project path="external/unbootimg" name="unbootimg" remote="b2g" revision="master" />
   <project path="external/webp" name="platform/external/webp" />
   <project path="external/webrtc" name="platform/external/webrtc" />
-  <project path="external/wpa_supplicant" name="platform/external/wpa_supplicant_8" />
+  <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" />
   <project path="external/hostap" name="platform/external/hostap" />
   <project path="external/zlib" name="platform/external/zlib" />
   <project path="external/yaffs2" name="platform/external/yaffs2" />
@@ -108,6 +111,7 @@
   <project path="device/semc/msm7x30-common" name="android_device_semc_msm7x30-common" remote="cyanogenmod" revision="ics" />
   <project path="device/semc/mogami-common" name="android_device_semc_mogami-common" remote="cyanogenmod" revision="ics" />
   <project path="kernel/semc/msm7x30" name="semc-kernel-msm7x30" remote="cyanogenmod" revision="ics" />
+  <project path="external/bluetooth/bluez" name="android_external_bluetooth_bluez" remote="cyanogenmod" revision="ics" />
   <project path="hardware/sony/DASH" name="android_hardware_sony_DASH" remote="cyanogenmod" revision="ics" />
   <project path="hardware/ti/fmradio" name="android_hardware_ti_fmradio" remote="cyanogenmod" revision="ics" />
   <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" />
