@@ -41,6 +41,7 @@
   <project path="external/apache-http" name="platform/external/apache-http" />
   <project path="external/apriori" name="platform_external_apriori" remote="b2g" revision="master" />
   <project path="external/bison" name="platform/external/bison" />
+  <project path="external/bluetooth/bluez" name="platform/external/bluetooth/bluez" />
   <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib" />
   <project path="external/bluetooth/hcidump" name="platform/external/bluetooth/hcidump" />
   <project path="external/bsdiff" name="platform/external/bsdiff" />
@@ -75,7 +76,7 @@
   <project path="external/protobuf" name="platform/external/protobuf" />
   <project path="external/safe-iop" name="platform/external/safe-iop" />
   <project path="external/screencap-gonk" name="screencap-gonk" remote="b2g" revision="master" />
-  <project path="external/skia" name="platform/external/skia" />
+  <project path="external/skia" name="platform/external/skia" revision="aosp-new/ics-mr1-release" />
   <project path="external/sonivox" name="platform/external/sonivox" />
   <project path="external/speex" name="platform/external/speex" />
   <project path="external/sqlite" name="platform/external/sqlite" revision="fb30e613139b8836fdc8e81e166cf3a76e5fa17f"/>
@@ -91,7 +92,7 @@
   <project path="external/hostap" name="platform/external/hostap" />
   <project path="external/zlib" name="platform/external/zlib" />
   <project path="external/yaffs2" name="platform/external/yaffs2" />
-  <project name="platform/frameworks/base" path="frameworks/base" revision="49aed1902b259173c8d3ca12727031c3fc464a14"/>
+  <project name="platform/frameworks/base" path="frameworks/base" revision="49aed1902b259173c8d3ca12727031c3fc464a14" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
   <project path="frameworks/support" name="platform/frameworks/support" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware" />
@@ -107,21 +108,16 @@
   <project path="system/vold" name="platform/system/vold" />
   
   <!-- Coconut specific things -->
-  <project path="device/semc/coconut" name="android_device_semc_coconut" remote="cyanogenmod" revision="ics" />
-  <project path="device/semc/msm7x30-common" name="android_device_semc_msm7x30-common" remote="cyanogenmod" revision="ics" />
-  <project path="device/semc/mogami-common" name="android_device_semc_mogami-common" remote="cyanogenmod" revision="ics" />
   <project path="kernel/semc/msm7x30" name="semc-kernel-msm7x30" remote="cyanogenmod" revision="ics" />
-  <project path="external/bluetooth/bluez" name="android_external_bluetooth_bluez" remote="cyanogenmod" revision="ics" />
   <project path="hardware/sony/DASH" name="android_hardware_sony_DASH" remote="cyanogenmod" revision="ics" />
   <project path="hardware/ti/fmradio" name="android_hardware_ti_fmradio" remote="cyanogenmod" revision="ics" />
-  <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" />
+  <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="cyanogenmod" revision="ics" />
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="cyanogenmod" revision="ics" />
   <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="cyanogenmod" revision="ics" />
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="cyanogenmod" revision="ics" />
-  <project path="hardware/msm7k" name="android_hardware_msm7k" remote="cyanogenmod" revision="ics" />
-  <project path="hardware/ti/wlan" name="android_hardware_ti_wlan" remote="cyanogenmod" revision="ics" />
-  <project path="system/bluetooth" name="android_system_bluetooth" remote="cyanogenmod" revision="ics" />
-  <project path="vendor/qcom/opensource/omx/mm-audio" name="android_vendor_qcom_opensource_omx_mm-audio" remote="cyanogenmod" revision="ics"  />
+  <project path="vendor/qcom/opensource/omx/mm-audio" name="android_vendor_qcom_opensource_omx_mm-audio" remote="cyanogenmod" revision="ics" />
   <project path="vendor/qcom/opensource/omx/mm-core" name="android_vendor_qcom_opensource_omx_mm-core" remote="cyanogenmod" revision="ics" />
   <project path="vendor/qcom/opensource/omx/mm-video" name="android_vendor_qcom_opensource_omx_mm-video" remote="cyanogenmod" revision="ics" />
+  <project path="hardware/msm7k" name="android_hardware_msm7k" remote="cyanogenmod" revision="ics" />
+  <project path="hardware/ti/wlan" name="android_hardware_ti_wlan" remote="cyanogenmod" revision="ics" />
   </manifest>
